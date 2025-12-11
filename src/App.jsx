@@ -106,7 +106,7 @@ function App() {
       // Poll for job status
       pollJobStatus(job_id);
     } catch (error) {
-      console.error('Upload error:', error);
+      console.error('Upload errorr:', error);
       setUploadStatus('error');
     }
   };
